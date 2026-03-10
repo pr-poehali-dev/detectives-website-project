@@ -118,14 +118,14 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('home')}>
             <div className="w-10 h-10 rounded-full overflow-hidden" style={{ border: '1px solid rgba(201,168,76,0.4)' }}>
-              <img src={LOGO_URL} alt="Detective Adapter" className="w-full h-full object-cover" />
+              <img src={LOGO_URL} alt="Детективы" className="w-full h-full object-cover" />
             </div>
             <div>
               <div className="font-playfair text-sm font-bold leading-none" style={{ color: 'var(--gold)' }}>
-                DETECTIVE
+                ДЕТЕКТИВЫ
               </div>
               <div className="font-cormorant text-xs tracking-widest" style={{ color: 'var(--cream-dim)' }}>
-                ADAPTER
+                БЮРО
               </div>
             </div>
           </div>
@@ -181,14 +181,14 @@ const Index = () => {
             </div>
             <div className="w-24 h-24 mx-auto mb-8 rounded-full overflow-hidden"
               style={{ border: '2px solid rgba(201,168,76,0.5)', boxShadow: '0 0 40px rgba(201,168,76,0.15)' }}>
-              <img src={LOGO_URL} alt="Detective Adapter" className="w-full h-full object-cover" />
+              <img src={LOGO_URL} alt="Детективы" className="w-full h-full object-cover" />
             </div>
           </div>
 
           <h1 className="animate-fade-in-up delay-200 font-playfair mb-4"
             style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)', fontWeight: 900, lineHeight: 1.1, color: 'var(--cream)' }}>
-            Detective
-            <span style={{ color: 'var(--gold)', fontStyle: 'italic' }}> Adapter</span>
+            Детективное
+            <span style={{ color: 'var(--gold)', fontStyle: 'italic' }}> Бюро</span>
           </h1>
 
           <div className="gold-line max-w-xs mx-auto my-6 animate-fade-in-up delay-300" />
@@ -209,7 +209,7 @@ const Index = () => {
           </div>
 
           <div className="mt-16 flex justify-center gap-12 animate-fade-in delay-700">
-            {[['15+', 'лет опыта'], ['1200+', 'дел закрыто'], ['99%', 'конфиденциальность']].map(([num, label]) => (
+            {[['1', 'год опыта'], ['1200+', 'дел закрыто'], ['99%', 'конфиденциальность']].map(([num, label]) => (
               <div key={label} className="text-center">
                 <div className="font-playfair text-2xl font-bold" style={{ color: 'var(--gold)' }}>{num}</div>
                 <div className="font-cormorant text-xs tracking-widest uppercase" style={{ color: 'var(--cream-dim)' }}>{label}</div>
@@ -332,7 +332,7 @@ const Index = () => {
               <div style={{ width: '60px', height: '2px', background: 'var(--gold)', margin: '12px 0 24px' }} />
               <div className="space-y-5 font-cormorant" style={{ fontSize: '1.15rem', lineHeight: 1.8, color: 'var(--cream-dim)' }}>
                 <p>
-                  <span style={{ color: 'var(--gold)', fontStyle: 'italic', fontSize: '1.3rem' }}>Detective Adapter</span> —
+                  <span style={{ color: 'var(--gold)', fontStyle: 'italic', fontSize: '1.3rem' }}>Детективы</span> —
                   команда профессионалов с опытом в сфере безопасности, разведки и расследований.
                   Мы работаем там, где обычные инструменты бессильны.
                 </p>
@@ -356,7 +356,7 @@ const Index = () => {
                 <img src={HERO_BG} alt="Detective Office" className="w-full h-64 object-cover" style={{ opacity: 0.6, filter: 'grayscale(40%)' }} />
                 <div className="mt-6 space-y-3">
                   {[
-                    ['Опыт работы', '15+ лет'],
+                    ['Опыт работы', '1 год'],
                     ['Закрытых дел', '1200+'],
                     ['Конфиденциальность', '100%'],
                     ['Telegram', '@DetectiveAdapter'],
@@ -515,7 +515,7 @@ const Index = () => {
               <img src={LOGO_URL} alt="" className="w-full h-full object-cover" />
             </div>
             <span className="font-cormorant text-sm tracking-widest" style={{ color: 'var(--cream-dim)' }}>
-              DETECTIVE ADAPTER © 2026
+              ДЕТЕКТИВЫ © 2026
             </span>
           </div>
         </div>
